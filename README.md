@@ -15,8 +15,7 @@ The workflow allows an author to:
 7. Receive automated email notifications when correction or rejection is required.
 
 The BPMN model is available here:
-
-**[View the BPMN workflow](bpmn\BPMN.svg)**
+![BPMN model](/bpmn/BPMN.png "BPMN model")
 
 The project is intended as a portfolio demonstration of BPMN modelling, Camunda Forms, document handling, Python workers, API integration, conditional process flows, and email automation.
 
