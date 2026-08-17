@@ -1,0 +1,88 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "0a9b4c5"
+  },
+  "schemaVersion": 19,
+  "id": "Form_2",
+  "components": [
+    {
+      "text": "### Review Form",
+      "id": "Heading_1",
+      "type": "text",
+      "layout": {
+        "row": "row_1",
+        "col": 16
+      }
+    },
+    {
+      "label": "Review Outcome",
+      "values": [
+        {
+          "label": "Approved",
+          "value": "true"
+        },
+        {
+          "label": "Rejected",
+          "value": "false"
+        }
+      ],
+      "id": "Select_reviewOutcome",
+      "type": "select",
+      "key": "approved",
+      "layout": {
+        "row": "row_2",
+        "col": 8
+      },
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Reviewer ID",
+      "id": "Textfield_reviewerId",
+      "type": "textfield",
+      "key": "reviewerId",
+      "layout": {
+        "row": "row_2",
+        "col": 8
+      },
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "datetime",
+      "id": "Datetime_reviewTimestamp",
+      "type": "datetime",
+      "key": "reviewTimestamp",
+      "dateLabel": "Review Date",
+      "timeLabel": "Review Time",
+      "layout": {
+        "row": "row_3",
+        "col": 16
+      },
+      "validate": {
+        "required": true
+      },
+      "timeInterval": 15
+    },
+    {
+      "label": "Review Comments",
+      "id": "Textarea_reviewComments",
+      "type": "textarea",
+      "key": "reviewComments",
+      "layout": {
+        "row": "row_4",
+        "col": 16
+      },
+      "validate": {
+        "required": false
+      }
+    }
+  ],
+  "generated": true,
+  "type": "default"
+}

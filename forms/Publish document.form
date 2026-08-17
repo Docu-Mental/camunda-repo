@@ -1,0 +1,61 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.9.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "0a9b4c5"
+  },
+  "schemaVersion": 19,
+  "id": "Form_3",
+  "components": [
+    {
+      "text": "### Publish Document Form",
+      "type": "text",
+      "id": "FormHeading",
+      "layout": {
+        "row": "row-0",
+        "col": 16
+      }
+    },
+    {
+      "label": "Title",
+      "type": "textfield",
+      "id": "Field_BusinessName",
+      "key": "title",
+      "validate": {
+        "required": false
+      },
+      "layout": {
+        "row": "row-4",
+        "col": 8
+      },
+      "description": "=title",
+      "readonly": true
+    },
+    {
+      "label": "Document preview",
+      "type": "documentPreview",
+      "layout": {
+        "row": "Row_1yad2l8",
+        "columns": null
+      },
+      "id": "Field_05ztiwm",
+      "dataSource": "=documentFile"
+    },
+    {
+      "label": "URL",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1k80993",
+        "columns": null
+      },
+      "id": "Field_0wi15yv",
+      "key": "textfield_gn65dx",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "generated": true,
+  "type": "default"
+}
