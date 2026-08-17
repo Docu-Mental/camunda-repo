@@ -104,7 +104,7 @@ The process then ends on the rejection path.
 
 ### 3. Document passes review
 
-**[Document-approval workflow video](https://documental-stw.pages.dev/docs/article15/camunda/videos/flow-3-document-passes-review-no-audio)**
+**[Document-approval workflow video](https://documental-stw.pages.dev/docs/article15/camunda/videos/flow-3-document-passes-review-no-audio.mp4)**
 
 If the reviewer selects **Approved**:
 
