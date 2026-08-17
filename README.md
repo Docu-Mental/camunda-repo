@@ -62,7 +62,7 @@ The BPMN process has three principal paths. (Note that the videos do not have so
 
 ### 1. Invalid terminology detected
 
-**[Watch the prohibited-term workflow video](videos/flow-1-prohibited-terminology-no-audio.mp4)**
+**[Prohibited-term workflow video](videos/flow-1-prohibited-terminology-no-audio.mp4)**
 
 The author submits a Markdown document.
 
@@ -83,7 +83,7 @@ An email is then sent to the author containing the prohibited term(s) that were 
 
 ### 2. Document fails review
 
-**[Watch the document-rejection workflow video](videos/flow-2-document-fails-review-no-audio.mp4)**
+**[Document-rejection workflow video](videos/flow-2-document-fails-review-no-audio.mp4)**
 
 If the document passes the terminology check, it proceeds to the **Review document** user task.
 
@@ -104,7 +104,7 @@ The process then ends on the rejection path.
 
 ### 3. Document passes review
 
-**[Watch the document-approval workflow video](videos/flow-3-document-passes-review-no-audio.mp4)**
+**[Document-approval workflow video](videos/flow-3-document-passes-review-no-audio.mp4)**
 
 If the reviewer selects **Approved**:
 
